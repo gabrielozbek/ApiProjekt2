@@ -9,6 +9,7 @@ public class Bonsai
     public DateTime LastPruned { get; set; }
     public BonsaiStyle Style { get; set; }
     public CareLevel CareLevel { get; set; }
+
 }
 
 public enum BonsaiStyle
